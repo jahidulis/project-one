@@ -7,20 +7,38 @@ h1{
 .header-color{
     color: orange;
 }
-section{
+.display{
     display: flex;
+    margin-bottom: 200px;
 }
 .half-width{
     width: 50%;
     padding-left: 10%;
+    padding-right: 5%;
 }
 .half-width img{
-    width: 80%;
+    width: 90%;
 }
-.link-button{
+.link-button-one{
     text-decoration: none;
     background-image: linear-gradient(rgb(192, 191, 191),rgb(104, 104, 105));
     padding: 6px 20px;
     color: white;
     border-radius: 5px;
+}
+.link-button-two{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(241, 219, 151),rgb(139, 128, 25));
+    padding: 6px 20px;
+    color: white;
+    border-radius: 5px;
+}
+.my-mission{
+    
+}
+.mission-head{
+    text-align: center;
+}
+section{
+    text-align: center;
 }
