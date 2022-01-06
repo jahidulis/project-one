@@ -4,8 +4,14 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 37px;
+}
+.text-header{
+    font-size: 35px;
+}
 .header-color{
-    color: orange;
+    color: rgb(24, 94, 134);
 }
 .display{
     display: flex;
@@ -13,7 +19,7 @@ h1{
 }
 .half-width{
     width: 50%;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-right: 5%;
 }
 .half-width img{
@@ -21,24 +27,73 @@ h1{
 }
 .link-button-one{
     text-decoration: none;
-    background-image: linear-gradient(rgb(192, 191, 191),rgb(104, 104, 105));
+    background-image: linear-gradient(rgb(15, 49, 16),rgb(78, 146, 78));
     padding: 6px 20px;
     color: white;
     border-radius: 5px;
 }
 .link-button-two{
     text-decoration: none;
-    background-image: linear-gradient(rgb(241, 219, 151),rgb(139, 128, 25));
+    background-image: linear-gradient(rgb(138, 110, 25),rgb(143, 139, 104));
     padding: 6px 20px;
     color: white;
     border-radius: 5px;
 }
-.my-mission{
-    
+.link-button-three{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(8, 22, 216),rgb(104, 116, 143));
+    padding: 6px 20px;
+    color: white;
+    border-radius: 5px;
 }
+.link-button-four
 .mission-head{
-    text-align: center;
+    text-align: center, justify;
 }
 section{
     text-align: center;
+}
+.diplay-item{
+    box-shadow: 1px 1px 5px gray ;
+    border-radius: 5px;
+    width: 35%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 10px;
+}
+.background-one{
+    background-color: rgb(227, 252, 252);
+}
+.background-one img{
+    width: 40%;
+}
+.background-two{
+        background-color: rgb(190, 188, 188);
+}
+.background-two img{
+    width: 40%;
+}
+.background-three{
+    background-color: rgb(191, 250, 204);
+}
+.background-three img{
+    width: 40%;
+}
+.community img{
+    width: 82%;
+}
+.tour-photo{
+    background-color: white;
+}
+.tour-photo img{
+    width: 50%;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Lobster !important;
+}
+.text-justify{
+    text-align: justify;
 }
