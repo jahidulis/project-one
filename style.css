@@ -11,7 +11,7 @@ h2{
     font-size: 35px;
 }
 .header-color{
-    color: rgb(24, 94, 134);
+    color: rgb(13, 163, 250);
 }
 .display{
     display: flex;
@@ -41,12 +41,18 @@ h2{
 }
 .link-button-three{
     text-decoration: none;
-    background-image: linear-gradient(rgb(8, 22, 216),rgb(104, 116, 143));
+    background-image: linear-gradient(rgb(13, 163, 250),rgb(44, 102, 236));
     padding: 6px 20px;
     color: white;
     border-radius: 5px;
 }
-.link-button-four
+.link-button-four{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(21, 184, 212),rgb(104, 116, 143));
+    padding: 6px 20px;
+    color: white;
+    border-radius: 5px;
+}
 .mission-head{
     text-align: center, justify;
 }
@@ -89,11 +95,18 @@ section{
     width: 50%;
 }
 .footer{
-    background-color: black;
+    background-color: rgb(37, 37, 37);
     color: white;
     text-align: center;
     font-family: Lobster !important;
 }
 .text-justify{
     text-align: justify;
+}
+#border-line{
+    border-left: 7px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(rgb(73, 71, 71),rgb(72, 161, 233)) ;
+    border-image-slice: 1;
+    
 }
